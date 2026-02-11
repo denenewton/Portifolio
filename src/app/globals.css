@@ -11,8 +11,7 @@
   --color-foreground: var(--foreground);
 
   /* Link the Next.js font variables to Tailwind theme */
- // --font-sans: var(--font-geist-sans);
- // --font-mono: var(--font-geist-mono);
+
 
   /* Added a Classic Serif Fallback for your Biography */
   --font-serif: "Geist", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -34,7 +33,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-sans), serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
