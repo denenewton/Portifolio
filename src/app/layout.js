@@ -57,7 +57,7 @@ export default function RootLayout({ children }) {
         {/* You can add a Navbar here later */}
         <main>{children}</main>
         {/* 4. Footer: Minimal & Classic */}
-        <footer className="py-12 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-6">
+        <footer className="py-12 border-t border-zinc-100 dark:border-zinc-900 flex flex-col justify-between items-center gap-6">
             <div className="text-[10px] uppercase tracking-[0.3em] text-zinc-400">
                 © {new Date().getFullYear()} Daniel dos Santos Araujo
             </div>
